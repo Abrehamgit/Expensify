@@ -1,0 +1,32 @@
+.notification-container {
+	background-color: rgba(0, 0, 0, 0.04);
+	margin: 0px;
+	padding-left: 8%;
+	padding-top: 2%;
+	color: rgba(0, 0, 0, 0.86);
+}
+.notification {
+	margin-top: 0px;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+@media (max-width: 670px) {
+	.notification {
+		margin-top: 15px;
+		font-size: 20px;
+		font-weight: 500;
+	}
+}
+.add-btn {
+	background-color: #1565c0;
+	padding: 14px;
+	color: white;
+	cursor: pointer;
+	border: none;
+	margin-bottom: 15px;
+	font-family: helvetica;
+}
+.add-btn:hover {
+	background-color: #0d47a1;
+}
